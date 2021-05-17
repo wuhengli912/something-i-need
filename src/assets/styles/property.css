@@ -1,0 +1,111 @@
+/*
+ * 面向属性的 CSS
+ */
+/* 测试工具 */
+.bd {border: 1px solid red;}
+/* 布局方式 */
+.dpflex { display: flex; }
+.dpnone { display: none; }
+.flex1 { flex: 1 }
+.fdcolumn{ flex-direction: column;}
+.jcaround{justify-content: space-around;}
+.jcbetween{justify-content: space-between;}
+.aicenter{align-items: center;}
+.jcflexend{justify-content: flex-end;}
+.jccenter{justify-content: center;}
+.flexwarp{
+    flex-wrap: wrap;
+}
+/* overflow */
+.ofy{
+    overflow-y: scroll;
+}
+/* 盒模型 */
+.mt0 { margin-top: 0; }
+.mt8 { margin-top: 8px; }
+.mt16 { margin-top: 16px; }
+.mt20 { margin-top: 20px; }
+.mt40 { margin-top: 40px; }
+
+.mr16 { margin-right: 16px; } 
+.mr30 { margin-right: 30px; } 
+
+.mb16 { margin-bottom: 16px; }
+.mb20 { margin-bottom: 20px; }
+.mb60 { margin-bottom: 60px; }
+
+.ml12 { margin-left: 12px; }
+.plr16{padding: 0 16px;}
+.pd8 { padding: 8px; }
+.pd16 { padding: 16px; }
+.pl8 { padding-left: 8px; }
+.pr8 { padding-right: 8px; }
+
+.pr30{padding-right: 30px;}
+/* 高度 */
+.h80{height: 80px;}
+/* 行高 */
+.lh20{line-height: 20px;}
+.lh24{line-height: 24px;}
+.lh28{line-height: 28px;}
+.lh40{line-height: 40px;}
+.lh50{line-height: 50px;}
+/* 字号 */
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs18 { font-size: 18px; }
+.fs20 {font-size: 20px;}
+.fs22 {font-size: 22px;}
+.fs24 {font-size: 24px;}
+.fs28 {font-size: 28px;}
+.fs40 {font-size: 40px;}
+.fs80 {font-size: 80px;}
+
+.fw600{font-weight: 600;}
+
+/* 文本缩进 */
+.ti10 {text-indent: 10px;}
+/* 定位 */
+.pf {position: fixed;}
+.pr {position: relative;}
+.pa {position: absolute;}
+/* 文字对齐方式 */
+.tac {text-align: center;}
+.tar{text-align: right;}
+/* 层级 */
+.zi1{z-index: 1;}
+/* 字体颜色 */
+.cddd{color: #ddd;}
+.cfff {color: white;}
+.c9a{color: #9a9a9a;}
+.cblack{color: black;}
+.c429{color: #4294FF;}
+.c159{color: #1592CC;}
+/* 边框 */
+.bb1c{border-bottom:1px solid #ccc ;}
+/* 背景颜色 */
+.bgce8{background-color: #E8E8E8;}
+.bgcfff{background-color: #ffffff;}
+.bgcblack{background-color: black;}
+.bgc429{background-color: #4294FF;}
+.bgc9cb{background-color:#9CBCE2;}
+.bgc159{background-color: #1592CC;}
+
+
+.lt1{
+    letter-spacing: 1px;
+}
+
+/* 绝对定位居中 */
+.pscenter{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 弹性盒子居中 */
+.dpflexcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
